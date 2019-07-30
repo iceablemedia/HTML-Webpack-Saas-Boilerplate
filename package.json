@@ -1,0 +1,33 @@
+{
+  "name": "HTML-Webpack-Saas-Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=development",
+    "build:production": "webpack --progress --mode=production",
+    "start": "webpack --hide-modules --watch --mode=development"
+  },
+  "keywords": [],
+  "author": "Mathieu Sarrasin",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "sass-loader": "^7.1.0",
+    "sugarss": "^2.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
