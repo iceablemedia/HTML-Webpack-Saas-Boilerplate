@@ -5,10 +5,7 @@ node_js:
 install:
   - npm install
 script:
-  - npm run lint:styles
-  - npm run lint:js
-  - npm run lint:html
-  - npm run build
+  - npm run build:production
 deploy:
   provider: pages
   skip-cleanup: true
